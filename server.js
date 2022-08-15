@@ -11,5 +11,5 @@ app.route('/movies').get(movieController.getAllMovies); // activate the getAllMo
 
 
 
-app.listen(3000, "127.0.0.1"); // start the nodejs to be listening for incoming request @ port 8080
-console.log("web server running @ http://127.0.0.1:3000"); // output to console 
+app.listen(3000, "172.31.82.32"); // start the nodejs to be listening for incoming request @ port 8080
+console.log("web server running @ http://172.31.82.32:3000"); // output to console 
